@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gallery | UPS Nimapara</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .gallery-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+            margin-top: 30px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+        .gallery-item img:hover {
+            transform: scale(1.05);
+            filter: brightness(1.1);
+        }
+    </style>
+</head>
+<body>
+    <section class="hero" style="height: 30vh; clip-path: none;">
+        <div class="hero-content">
+            <h2>Life at Udayanath</h2>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="gallery-container">
+            <div class="gallery-item"><img src="./gallery/Assembly-.jpg" alt="Assembly"></div>
+                        <div class="gallery-item"><img src="./gallery/class room u.webp" alt="Assembly"></div>
+
+            <div class="gallery-item"><img src="./gallery/sports day u.webp" alt="Annual Sports"></div>
+            <div class="gallery-item"><img src="./gallery/science lab u.avif" alt="Science Lab"></div>
+            <div class="gallery-item"><img src="./gallery/infra - Copy.avif" alt="Classroom Activity"></div>
+            <div class="gallery-item"><img src="./gallery/celebrations.avif" alt="Cultural Fest"></div>
+                        <div class="gallery-item"><img src="./gallery/celebrations 2.avif" alt="Cultural Fest"></div>
+            <div class="gallery-item"><img src="./gallery/computer lab u.webp" alt="Prize Distribution"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

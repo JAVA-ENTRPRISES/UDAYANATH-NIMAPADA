@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandatory Disclosure | UPS Nimapara</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Table and Layout Fixes */
+        .disclosure-header { 
+            background: #f1f5f9; 
+            color: var(--primary); 
+            padding: 12px 15px; 
+            border-radius: 8px; 
+            margin-top: 40px; 
+            margin-bottom: 10px; 
+            font-size: 1.1rem; 
+            font-weight: 800; 
+            border-left: 5px solid var(--primary);
+        }
+        .disclosure-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
+        .disclosure-table th { background: var(--dark); color: white; text-align: left; padding: 12px 15px; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; }
+        .disclosure-table td { padding: 12px 15px; border-bottom: 1px solid #e2e8f0; font-size: 0.85rem; color: #334155; line-height: 1.5; }
+        .disclosure-table tr:hover { background: #f8fafc; }
+        
+        .doc-btn { 
+            display: inline-block;
+            color: var(--primary); 
+            font-weight: 600; 
+            text-decoration: none; 
+            border: 1px solid var(--primary); 
+            padding: 5px 12px; 
+            border-radius: 4px; 
+            font-size: 0.75rem;
+            transition: all 0.3s ease;
+        }
+        .doc-btn:hover { background: var(--primary); color: white; transform: translateY(-1px); }
+        
+        small { color: #64748b; display: block; margin-top: 4px; }
+        .result-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 10px; }
+
+        @media (max-width: 768px) {
+            .result-grid { grid-template-columns: 1fr; }
+            .disclosure-table { display: block; overflow-x: auto; }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero" style="height: 25vh; clip-path: none; background: var(--dark);">
+        <div class="hero-content">
+            <h2>Mandatory Public Disclosure</h2>
+            <p>Information as per CBSE Guidelines</p>
+        </div>
+    </section>
+
+    <main class="container">
+        <div class="glass-card">
+            
+            <h3 class="disclosure-header">A: GENERAL INFORMATION</h3>
+            <table class="disclosure-table">
+                <thead>
+                    <tr><th>SL NO.</th><th>INFORMATION</th><th>DETAILS</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>NAME OF THE SCHOOL</td><td>UDAYANATH PUBLIC SCHOOL</td></tr>
+                    <tr><td>2</td><td>AFFILIATION NO.</td><td>PENDING</td></tr>
+                    <tr><td>3</td><td>SCHOOL CODE</td><td>N.A.</td></tr>
+                    <tr><td>4</td><td>COMPLETE ADDRESS</td><td>AT - RENCH SASAN, PO- RENCH, PS - NIMAPARA, PURI, 752114</td></tr>
+                    <tr><td>5</td><td>PRINCIPAL NAME</td><td>MR. [Principal Name]</td></tr>
+                    <tr><td>6</td><td>SCHOOL EMAIL</td><td>udayanathpschool@gmail.com</td></tr>
+                    <tr><td>7</td><td>CONTACT DETAILS</td><td>8280120734</td></tr>
+                </tbody>
+            </table>
+
+            <h3 class="disclosure-header">B: DOCUMENTS AND INFORMATION</h3>
+            <table class="disclosure-table">
+                <thead>
+                    <tr><th>SL NO.</th><th>DOCUMENTS / INFORMATION</th><th>UPLOAD DOCUMENTS</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>COPIES OF AFFILIATION/UPGRADATION LETTER</td><td><a href="images/pdfs/affiliation.pdf" target="_blank" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>2</td><td>COPIES OF TRUST/SOCIETY REGISTRATION</td><td><a href="images/pdfs/trust.pdf" target="_blank" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>3</td><td>COPY OF NO OBJECTION CERTIFICATE (NOC)</td><td><a href="images/pdfs/noc.pdf" target="_blank" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>4</td><td>COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT</td><td><a href="images/pdfs/cor.pdf" target="_blank" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>5</td><td>VALID BUILDING SAFETY CERTIFICATE</td><td><a href="images/pdfs/building.pdf" target="_blank" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>6</td><td>VALID FIRE SAFETY CERTIFICATE</td><td><a href="images/pdfs/fire.pdf" target="_blank" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>7</td><td>COPY OF SELF CERTIFICATION FOR AFFILIATION</td><td><a href="images/pdfs/self.pdf" target="_blank" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>8</td><td>VALID WATER, HEALTH AND SANITATION CERTIFICATES</td><td><a href="images/pdfs/water.pdf" target="_blank" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>9</td><td>COPIES OF SELF DECLARATION AFFIDAVIT</td><td><a href="images/pdfs/selfaff.pdf" target="_blank" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                </tbody>
+            </table>
+
+            <h3 class="disclosure-header">C: RESULT AND ACADEMICS</h3>
+            <table class="disclosure-table">
+                <thead>
+                    <tr><th>SL NO.</th><th>DOCUMENTS / INFORMATION</th><th>UPLOAD DOCUMENTS</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>FEE STRUCTURE OF THE SCHOOL</td><td><a href="images/pdfs/fees.pdf" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>2</td><td>ANNUAL ACADEMIC CALENDAR</td><td><a href="images/pdfs/cal.pdf" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>3</td><td>LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC)</td><td><a href="images/pdfs/smc.pdf" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>4</td><td>LIST OF PARENTS TEACHERS ASSOCIATION (PTA)</td><td><a href="images/pdfs/pta.pdf" class="doc-btn">VIEW DOCUMENTS</a></td></tr>
+                    <tr><td>5</td><td>LAST THREE-YEAR RESULT OF BOARD EXAM</td><td>N.A.</td></tr>
+                </tbody>
+            </table>
+
+            <h3 class="disclosure-header">D: STAFF (TEACHING)</h3>
+            <table class="disclosure-table">
+                <thead>
+                    <tr><th>SL NO.</th><th>INFORMATION</th><th>DETAILS</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>PRINCIPAL</td><td>01</td></tr>
+                    <tr><td>2</td><td>TOTAL NO. OF TEACHERS<small>(06 PGT, 06 TGT, 07 PRT)</small></td><td>20</td></tr>
+                    <tr><td>3</td><td>TEACHERS SECTION RATIO</td><td>1:15</td></tr>
+                    <tr><td>4</td><td>DETAILS OF SPECIAL EDUCATOR</td><td>01</td></tr>
+                    <tr><td>5</td><td>DETAILS OF COUNSELLOR AND WELLNESS TEACHER</td><td>01</td></tr>
+                </tbody>
+            </table>
+
+            <div class="result-grid">
+                <div>
+                    <h3 class="disclosure-header" style="font-size: 0.9rem; margin-top: 10px;">RESULT CLASS: X</h3>
+                    <table class="disclosure-table">
+                        <tr><th>YEAR</th><th>PASSED</th><th>PASS %</th></tr>
+                        <tr><td>2025</td><td>--</td><td>--</td></tr>
+                        <tr><td>2024</td><td>--</td><td>--</td></tr>
+                    </table>
+                </div>
+                <div>
+                    <h3 class="disclosure-header" style="font-size: 0.9rem; margin-top: 10px;">RESULT CLASS: XII</h3>
+                    <table class="disclosure-table">
+                        <tr><th>YEAR</th><th>PASSED</th><th>PASS %</th></tr>
+                        <tr><td>2025</td><td>--</td><td>--</td></tr>
+                        <tr><td>2024</td><td>--</td><td>--</td></tr>
+                    </table>
+                </div>
+            </div>
+
+            <h3 class="disclosure-header">E: SCHOOL INFRASTRUCTURE</h3>
+            <table class="disclosure-table">
+                <thead>
+                    <tr><th>SL NO.</th><th>INFORMATION</th><th>DETAILS</th></tr>
+                </thead>
+                <tbody>
+                    <tr><td>1</td><td>TOTAL CAMPUS AREA (SQ MTR)</td><td>6075</td></tr>
+                    <tr><td>2</td><td>NO. AND SIZE OF THE CLASS ROOMS (SQ MTR)</td><td>15 | 46 Sq Mtr Each</td></tr>
+                    <tr><td>3</td><td>NO. AND SIZE OF LABORATORIES (SQ MTR)</td><td>03 | 56 Sq Mtr Each</td></tr>
+                    <tr><td>4</td><td>INTERNET FACILITY (Y/N)</td><td>YES</td></tr>
+                    <tr><td>5</td><td>NO. OF GIRLS TOILETS</td><td>08</td></tr>
+                    <tr><td>6</td><td>NO. OF BOYS TOILETS</td><td>08</td></tr>
+                    <tr><td>7</td><td>YOUTUBE VIDEO LINK OF INSPECTION</td><td><a href="#" class="doc-btn">WATCH VIDEO</a></td></tr>
+                </tbody>
+            </table>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

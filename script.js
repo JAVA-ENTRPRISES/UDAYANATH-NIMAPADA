@@ -65,10 +65,14 @@ document.addEventListener("DOMContentLoaded", () => {
             <div>
                 <h4 style="color: #D4AF37; margin-bottom: 20px; border-bottom: 2px solid rgba(212,175,55,0.2); padding-bottom: 5px; display: inline-block;">Quick Links</h4>
                 <ul style="list-style: none; padding: 0; font-size: 0.85rem; line-height: 2.2;">
-                    <li><a href="mandatory.html" style="color: white; text-decoration: none;">Mandatory Disclosure</a></li>
-                    <li><a href="gallery.html" style="color: white; text-decoration: none;">School Gallery</a></li>
-                    <li><a href="admission.html" style="color: white; text-decoration: none;">Admissions 2026</a></li>
-                </ul>
+                   <li><a href="index.html" style="color: white; text-decoration: none; transition: 0.3s;">Home</a></li>
+                <li><a href="about.html" style="color: white; text-decoration: none; transition: 0.3s;">About</a></li>
+                <li><a href="facilities.html" style="color: white; text-decoration: none; transition: 0.3s;">Facilities</a></li>
+                                <li><a href="mandatory.html" style="color: white; text-decoration: none; transition: 0.3s;">Mandatory Disclosure</a></li>
+
+                <li><a href="gallery.html" style="color: white; text-decoration: none; transition: 0.3s;">Gallery</a></li>
+                <li><a href="admission.html" style="color: white; text-decoration: none; transition: 0.3s;">Admission</a></li>
+                               </ul>
             </div>
 
             <div>

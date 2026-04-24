@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <nav style="background: #002147; color: white; padding: 1rem 20px; border-bottom: 4px solid #D4AF37; font-family: 'Poppins', sans-serif;">
         <div style="max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center;">
             <div style="display: flex; align-items: center; gap: 15px;">
-                <img src="gallery/school 2.jpgx" alt="UPS Logo" style="height: 60px; width: auto; border-radius: 4px;">
+                <img src="gallery/logo.jpeg" alt="UPS Logo" style="height: 60px; width: auto; border-radius: 4px;">
                 <div>
                     <h1 style="color: #D4AF37; font-size: 1.5rem; margin: 0; letter-spacing: 1px; font-weight: 700;">UDAYANATH</h1>
                     <p style="font-size: 0.75rem; margin: 0; opacity: 0.9; text-transform: uppercase; letter-spacing: 2px;">Public School | Nimapara</p>
@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", () => {
             
             <div>
                 <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 15px;">
-                    <img src="images/log.png" alt="Logo" style="height: 45px;">
+                    <img src="gallery/logo.jpeg" alt="Logo" style="height: 45px;">
                     <h3 style="color: #D4AF37; margin: 0; font-size: 1.2rem;">UPS NIMAPARA</h3>
                 </div>
                 <p style="font-size: 0.85rem; opacity: 0.7; line-height: 1.6;">
